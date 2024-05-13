@@ -4,9 +4,9 @@ If you're given a string that has "blanks" (underscores) and an array of words, 
 
 ## Program:
 ```python runnable
-string = "This _ a _ really _ _."
+string = "This _ a _ really _ _"
 
-words = ["is", "really", "long", "string"]
+words = ["is", "really,", "long", "string."]
 
 for i in words:
     string = string.replace("_", i, 1)
